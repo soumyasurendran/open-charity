@@ -1,0 +1,29 @@
+name = Open Charity
+description = A flexible, responsible custom theme for open charity.
+core = 7.x
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/owl.carousel.css
+
+
+scripts[] = js/jquery.min.js
+scripts[] = js/owl.carousel.min.js
+scripts[] = js/script.js
+scripts[] = js/theme.js
+
+
+regions[header]           =  Header
+regions[main_menu] 		  =  Main Menu
+regions[banner]    		  =  Banner
+regions[highlighted]      =  Highlighted
+regions[content]   		  =  Content
+regions[upcoming_event]   =  Upcoming Event
+regions[our_groups]       =  Our Groups
+regions[our_members]      =  Our Members
+regions[our_blogs]        =  Our Blogs
+regions[our_mission_d]    =  Our Mission Description
+regions[our_mission]      =  Our Mission
+regions[sidebar_first]    =  Sidebar first
+regions[sidebar_second]   =  Sidebar second
+regions[footer]     	  =  Footer
+regions[footer_second] 	  =  Footer Second

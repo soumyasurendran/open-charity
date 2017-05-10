@@ -1,0 +1,67 @@
+/*******************************************
+ Stylesheet: Mixins & Constants Stylesheet
+*******************************************/
+
+/*********************
+TYPOGRAPHY
+*********************/
+@font-face {
+	font-family: 'museosans500';
+	src: url("../fonts/museosans500.eot");
+    src: url("../fonts/museosans500.eot") format("embedded-opentype"),
+	    url("../fonts/museosans500.woff2") format("woff2"), 
+	    url("../fonts/museosans500.woff") format("woff"), 
+	    url("../fonts/museosans500.ttf") format("truetype"), 
+	    url("../fonts/museosans500.svg#museosans500") format("svg");	
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*********************
+TRANSITION
+*********************/
+@mixin transition($transition...) {
+	// defining prefixes so we can use them in mixins below
+	$prefixes:      ("-webkit", "-ms", "-o",  "");
+  @each $prefix in $prefixes {
+    #{$prefix}-transition: $transition;
+  }
+
+  transition: $transition;
+}
+
+/*********************
+Font Awesome
+*********************/
+@mixin fa-icon($font-size: null, $content: null, $color: null) {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  text-rendering: auto;
+  @if($font-size) {
+    font-size: $font-size;
+  } @else {
+    font-size: .8em;
+  }
+  @if($content) {
+    content: $content;
+  }
+  @if($color) {
+    color: $color;
+  } @else {
+    color: $dark-cyan;
+  }
+}
+
+/*********************
+Clearfix
+*********************/
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}

@@ -1,0 +1,64 @@
+/* ===============
+ Global Variable
+================= */
+
+//Typography
+$font-family-base: 	"Open Sans", sans-serif;
+$font-family-museo: 'museosans500';
+$font-family-museo-rounded: "MuseoSansW01-Rounded300";
+
+$font-weight-normal: normal;
+$font-weight-h2:	500;
+$font-weight-h1:	600;
+
+//Font Size
+$font-size-base:	16px;
+$font-size-h4:		18px;
+$font-size-title: 	20px;
+$font-size-h2:		30px;
+$font-size-h3:		25px;
+$banner-title: 		60px;
+
+//Font Align
+$text-center: center;
+
+// Width
+$base-width: 		80em;
+
+
+// Border Radius
+$border-radius-base: 2px;
+$border-radius-small: 3px;
+$border-radius-full: 100%;
+
+// Colors 
+$white: 			#ffffff;
+$black:				#000000;
+$off-grey:			#f1f2f5;
+$grey: 				#5b6172;
+$grey-light: 		#575656;
+$dark-cyan:			#5fc0c3;
+$green: 			#61c0bd;
+$turquoise: 		#57c0d5;
+$slate:				#454850;
+$light-steel-blue:	#979eb1;
+$slate-gray:		#585b61;
+$light-black: 		rgba( $black, 0.015);
+
+// Box shadow
+$header-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+
+// Font-awesome
+$fa-var-left-arrow: "\f178";
+
+//Media Query
+$break-small: 479px;
+$break-medium: 767px;
+$break-large: 1199px;
+$screen-min-medium: $break-medium + 1;
+
+/*********************
+Grid System
+*********************/
+$grid-spacing:3%;
+ 
