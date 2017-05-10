@@ -28,14 +28,12 @@ Then go to project directory , run below commands.
 
 ```
 npm install --save-dev gulp-sass
-
 ```
 
 When you want to edit .scss file, you must run gulp before start editing. Open terminal, Go to the project directory and run below command. Then after you can start editing in .scss file.
 
 ```
 gulp
-
 ```
 
 
