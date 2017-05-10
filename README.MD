@@ -17,12 +17,28 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installation
 
 * Install gulp sass for compiling css.
-```
-npm install -g gulp // This will install gulp globally, If you haven't installed gulp globally before
-Then go to project directory , run below commands
-npm install --save-dev gulp-sass // This will install gulp-sass and the --save-dev will add gulp as a devDependency in your package.json file
+
+Below command will install gulp globally, If you haven't installed gulp globally before. You can skip this step, If you have already installed gulp globally.
 
 ```
+npm install -g gulp 
+```
+
+Then go to project directory , run below commands.
+
+```
+npm install --save-dev gulp-sass
+
+```
+
+When you want to edit .scss file, you must run gulp before start editing. Open terminal, Go to the project directory and run below command. Then after you can start editing in .scss file.
+
+```
+gulp
+
+```
+
+
 * Download and extract Drupal 7.54 version.
 * Create a database 
 * Give folder write permission for create settings.php file and Run installation.
