@@ -11,6 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 * [Drupal](https://www.drupal.org/) - Drupal 7.54
 * [Mysql](https://www.mysql.com/) - Database Connectivity
 * [GULP SASS](https://www.npmjs.com/package/gulp-sass) - We are using Gulp to compile SASS file
+* [BEM](http://getbem.com/introduction/) - We are using BEM method as you suggested
 
 
 
